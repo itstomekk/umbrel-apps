@@ -3,7 +3,7 @@ id: albyhub
 name: Alby Hub ✨
 tagline: Self-custodial Lightning wallet with integrated node and app connections
 category: bitcoin
-version: "1.13.0"
+version: "1.14.3"
 port: 59000
 description: >-
   Alby Hub is an open-source, self-custodial Bitcoin Lightning wallet, with the easiest-to-use Lightning Network node for everyone. 
@@ -31,14 +31,13 @@ gallery:
   - 4.jpg
 releaseNotes: >-
   Highlights:
-    - New apps in the app store: e.g. ZapPlanner for scheduled recurring payments, Clams for accounting
-    - Auto-unlock feature after restarts
-    - More information about pending channel closing transactions
-    - security improvements for isolated apps and budgeting
+    - Integrated onchain <> lightning swaps
+    - New home screen widgets (messageboard, stats for nerds, recently used apps, app of the day)
+    - More apps in the app store (BTCPay, Nostter, Coracle, LNBits, PTUJ.ai, Nostrcheck Server)
+    - Currency switcher
 
   Full release notes are found at https://github.com/getAlby/hub/releases
-
-  Honouring Eva Galperin
+  Honouring Mike Godwin.
 dependencies:
   - lightning
 path: ""
